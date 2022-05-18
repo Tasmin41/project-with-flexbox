@@ -1,0 +1,35 @@
+/*mediul layout :1280px;*/
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .area {
+        width: 970px;
+
+    }
+}
+
+
+/*Tablet layout:768px.*/
+@media only screen and (min-width:768px) and (max-width:992px){
+}
+/*Mobile layout:320px.*/
+@media only screen (max-width:767px){
+    .area{
+        width:350px;
+    
+    }
+    .header{
+        text-align: center;
+        padding: 10px;
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+    .logo a{
+        text-align: center;
+        font-size: 20px;
+    }
+
+}
+
+/*Wide mobile layout:480px. */
+@media only screen and (min-width:480px) and (max-width:767px){
+}

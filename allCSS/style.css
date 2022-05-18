@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: rgb(12, 11, 10);
+    font-size: 14px;
+}
+.area{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 35px;
+    color: blueviolet;
+    font-weight: bold;
+
+
+}
+
+.head-menu ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.head-menu ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: brown;
+}
+.banner{
+    margin-bottom: 20px;
+}
+.banner img {
+    
+    padding: 3px;
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 400px;
+}
+.welcome {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content:space-between;
+}
+.quick-links {
+	flex-basis: 10%;
+	margin-bottom: 20px;
+}
+.quick-links h4 {
+
+    font-size: 17px;
+
+}
+.quick-links ul{
+    list-style-type:none;
+}
+.quick-links ul li{
+    padding: 5px;
+}
+.quick-links ul li a{
+    text-decoration:none;
+    color:blueviolet;
+}
+.welcome-web{
+    flex-basis:88%;
+    margin-bottom:20px;
+
+    
+    
+}
+.welcome-web h4{
+    font-size: 17px;
+    
+}
+.welcome-web p{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.inner-welcome{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.mission{
+    flex-basis:48%;
+  
+}
+.mission h4{
+    font-size: 17px;
+}
+
+.vission{
+    flex-basis:48%;
+
+}
+.vission h4{
+    font-size: 17px;
+}
+.services {
+	padding: 30px 10px;
+	background-color: rgb(245, 186, 186);
+    margin-bottom: 20px;
+}
+.title {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.title h4 {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+}
+.services-box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    
+}
+.single-services {
+	flex-basis: 32%;
+
+}
+.single-services h4{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.single-services img{
+        width: 100%;
+        margin-bottom: 10px;
+}
+.single-services p{
+    padding: 3px;
+    margin-bottom: 10px;
+}
+.single-services a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: brown;
+    padding: 10px;
+    color: burlywood;
+}
+
+.about-us {
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.about-desc {
+	flex-basis: 65%;
+}
+.about-desc h4{
+    color:black;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.about-desc p{
+    margin-bottom: 10px;
+}
+.about-desc a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: brown;
+    padding: 10px;
+    color: burlywood;
+}
+
+.about-menu {
+	flex-basis: 15%;
+}
+.about-menu h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.about-menu ul{
+    list-style: none;
+}
+.about-menu ul li{
+    padding: 5px;
+}
+.about-menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.footer1:nth-child(1){
+    flex-basis: 30%;
+}
+.footer1:nth-child(2){
+    flex-basis: 25%;
+}
+.footer1:nth-child(3){
+    flex-basis: 40%;
+}
+.footer1 h4{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.final-footer{
+    background-color: rgb(35, 103, 228);
+    padding: 10px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
